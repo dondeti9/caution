@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .delete-box {
+    border:  #ccc;
+    border-radius: 20px;
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+  }
+  
+  .caution-container {
+    padding-left: 20px;
+    padding-top: 6px;
+    
+    background-color: #fffdfd;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 80px;
+  }
+  
+  .caution-symbol {
+    color: rgb(240, 15, 15);
+    font-size: 40px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .cancel-Button,
+  .delete-Button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-Button {
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+  
+  .delete-Button {
+    background-color: red;
+    color: white;
+  }
+  
